@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body{
+    font-family: "Oswald", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+.navegacion-principal{
+    display: flex;
+    float: left;
+}
+
+.navegacion-principal__marca{
+    width: 50px;
+    height: 50px;
+}
