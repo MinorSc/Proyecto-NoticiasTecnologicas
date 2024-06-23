@@ -14,7 +14,10 @@ body {
 }
 
 
-.navegacion-principal {}
+.navegacion-principal {
+    padding: 20px;
+
+}
 
 .navegacion-principal__menu {
     color: white;
@@ -28,6 +31,17 @@ body {
 
 }
 
+navegacion-principal__menu li {
+    display: flex;
+    align-content: space-between;
+}
+
 .navegacion-principal__menu-derecha{
+    margin: auto;
+    display: flex;
     justify-content: end;
+    list-style: none;
+    text-align: center;
+    
+
 }
