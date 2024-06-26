@@ -19,29 +19,32 @@ body {
 
 }
 
+
 .navegacion-principal__menu {
-    color: white;
     display: flex;
-    flex-direction: row;
-    text-decoration: none;
-    list-style: none;
+    align-items: center;
     justify-content: center;
-    align-content: space-around;
-    
-
-}
-
-navegacion-principal__menu li {
-    display: flex;
-    align-content: space-between;
-}
-
-.navegacion-principal__menu-derecha{
-    margin: auto;
-    display: flex;
-    justify-content: end;
     list-style: none;
-    text-align: center;
+    padding: 10px 0;
     
 
+}
+
+
+.navegacion-principal__menu {
+    margin: 0 15px;
+    
+}
+
+.navegacion-principal__menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+
+}
+
+.navegacion-principal__menu-derecha {
+    display: flex;
+    align-items: center;
+    flex-direction: e;
 }
