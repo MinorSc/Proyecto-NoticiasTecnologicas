@@ -15,8 +15,17 @@ body {
 
 
 .navegacion-principal {
-    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
 
+}
+
+.navegacion-principal__marca {
+    width: 50px;
+    height: 50px;
+    display: flex;  
 }
 
 
@@ -26,15 +35,8 @@ body {
     justify-content: center;
     list-style: none;
     padding: 10px 0;
-    
-
 }
 
-
-.navegacion-principal__menu {
-    margin: 0 15px;
-    
-}
 
 .navegacion-principal__menu a {
     color: white;
@@ -43,8 +45,48 @@ body {
 
 }
 
+.navegacion-principal__menu a:hover {
+    color: rgb(8, 56, 38);
+    text-decoration: underline;
+
+}
+
 .navegacion-principal__menu-derecha {
     display: flex;
-    align-items: center;
-    
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navegacion-principal__menu-derecha a {
+    color: #fff;
+}
+
+.navegacion-principal__menu-derecha a:hover {
+    color: rgb(8, 56, 38);
+}
+
+.cabecera {
+    background-image: url('/Assets/Images/showcase.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.cabecera .boton {
+    background-color: rgb(63, 61, 61);
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 8px 17px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.cabecera .boton:hover {
+    background-color: rgb(102, 100, 100);
 }
