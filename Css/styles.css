@@ -25,7 +25,7 @@ body {
 .navegacion-principal__marca {
     width: 50px;
     height: 50px;
-    display: flex;  
+    display: flex;
 }
 
 
@@ -89,4 +89,40 @@ body {
 
 .cabecera .boton:hover {
     background-color: rgb(102, 100, 100);
+}
+
+.tarjetas-noticias {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.tarjetas-noticias__tarjeta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjetas-noticias__tarjeta img {
+    width: 100%;
+    height: 170px;
+
+}
+
+.tarjetas-noticias__tarjeta h3 {
+    margin: 15px 10px;
+}
+
+.tarjetas-noticias__tarjeta a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 15px 10px;
+}
+
+.tarjetas-noticias__tarjeta a:hover {
+    text-decoration: underline;
+
 }
